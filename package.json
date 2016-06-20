@@ -1,0 +1,28 @@
+{
+  "name": "restez",
+  "version": "1.0.5",
+  "description": "An easy to user REST API server",
+  "main": "release/index.js",
+  "typings": "release/index",
+  "scripts": {
+    "build": "tsc -p ./src/ -outDir ./release/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmakina/restez.git"
+  },
+  "keywords": [
+    "typescript",
+    "atom"
+  ],
+  "author": "Alex Addams <restez@xmakina.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xmakina/restez/issues"
+  },
+  "homepage": "https://github.com/xmakina/restez#readme",
+  "dependencies": {
+    "promise": "^7.1.1",
+    "restify": "^4.1.1"
+  }
+}
